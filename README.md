@@ -22,8 +22,8 @@ In the sidebar, use more grids to lay out the navigation and branding sections.
 In the header, use more grids to lay out the search bar, user info and buttons.
 
 For the main-content, use more grids to lay out the projects, announcements and trending items.
-F
-ill out some dummy content and placeholder images so you can position all of your grid items.
+
+Fill out some dummy content and placeholder images so you can position all of your grid items.
     
     Step 4: Gather assets
 
