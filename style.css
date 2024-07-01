@@ -72,18 +72,21 @@ li {
     color: white;
     padding: var(--padding);
     display: grid;
-    grid-template-rows: 1fr 6fr 3fr;
+    grid-template-rows: 1fr 6fr 6fr;
     gap: 20px;;
     width: max-content;
 }
 
 .side-group {
-    display: grid;
-    gap: 10px;
-    height: fit-content;
     text-decoration: none;
     justify-self: baseline;
     padding: 0;
+    height: fit-content;
+}
+
+
+.side-group li {
+    padding: 20px;
 }
 
 .side-group .iconify {
