@@ -1,6 +1,6 @@
 # admin-dashboard
 
-    Step 1: Set up your project
+    Step 1: Set up your project OK
 Set up your Git repository (refer to past projects if you need a refresher).
 
 Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
@@ -45,4 +45,4 @@ This project does not have to be responsive, but if you’d like to you can expa
 
 You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
 
-Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
+Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world! 
