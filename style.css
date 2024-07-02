@@ -67,6 +67,11 @@ li {
     display: grid;
     grid-auto-flow: column;
     grid-area: profile;
+    justify-items: center;
+}
+
+.bottom-header .profile .logo {
+    justify-self: flex-end;
 }
 
 .bottom-header .actions {
@@ -92,7 +97,7 @@ li {
     display: grid;
     grid-template-rows: 1fr 6fr 6fr;
     gap: 20px;;
-    width: max-content;
+    width: max(max-content, 1fr);
 }
 
 .side-group {
@@ -136,7 +141,7 @@ li {
     background-color: rgb(255, 255, 255);
     border-radius: var(--radius);
     padding: var(--padding);
-    border-left: 7px solid rgb(228, 199, 49);
+    border-left: 7px solid rgb(226, 180, 17);
     display: grid;
     grid-template-rows: repeat(2, fit-content);
 }
@@ -166,7 +171,7 @@ li {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: minmax(200px, 1fr);
-    padding: calc(var(--padding)/3) var(--padding);
+    padding: calc(var(--padding)/3) calc(2*var(--padding));
     border-radius: var(--radius);
     background-color: white;
 }
@@ -207,7 +212,7 @@ li {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .trending .profile-pic {
