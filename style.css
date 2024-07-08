@@ -43,13 +43,17 @@ li {
     margin: 0 3% ;
 }
 
+.top-header img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 .top-header .profile {
     display: grid;
     grid-auto-flow: column;
     justify-items: center;
+    align-items: center;
 }
-
-
 
 .top-header .profile .iconify {
     justify-self: flex-end;
@@ -63,11 +67,18 @@ li {
     align-items: center;
 }
 
+.bottom-header img {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .bottom-header .profile {
     display: grid;
     grid-auto-flow: column;
     grid-area: profile;
     justify-items: center;
+    align-items: center;
 }
 
 .bottom-header .profile .logo {
@@ -226,4 +237,8 @@ li {
 
 .trending .description {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+.trending img {
+    height: 70px;
 }
